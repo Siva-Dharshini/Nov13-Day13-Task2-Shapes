@@ -1,0 +1,37 @@
+.circle {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.triangle {
+
+    height: 0;
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid darkcyan;
+
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    padding:20px;
+}
